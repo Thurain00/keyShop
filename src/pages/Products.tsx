@@ -13,7 +13,7 @@ function Products() {
     })
     console.log('this is data',data)
   return (
-      <div className='p-5 flex flex-wrap gap-3 justify-center bg-[#E9ECE6] '>
+      <div className='p-5 flex flex-wrap gap-3 justify-center  '>
         {isPending&&<p> Please wait...</p>}
         {data?.map((d:ITEMTYPE)=><Link to={`${d.id}`}><Item key={d.id} title={d.title} image={d.image} price={d.price}/></Link>)}
             

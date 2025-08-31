@@ -23,7 +23,7 @@ function Item({image,title,price}:Props) {
     //     Add to Cart
     //   </button>
     // </div>
-    <div className='w-[286px] h-[300px] bg-[#F9F6F4] rounded-lg'>
+    <div className='w-[286px] h-[300px] bg-[#F9F6F4] rounded-lg p-2'>
        <img src={image} className='w-[286px] h-[160px] object-contain' alt="item_img" />
        <div className='w-[286px] h-[140px] text-[#2D2D2D] px-3 flex flex-col justify-center gap-1 '>
             <h1 className='w-full  whitespace-nowrap overflow-hidden text-ellipsis block'>{title}</h1>

@@ -7,10 +7,10 @@ function Navbar() {
       <h1 className=' text-3xl font-extrabold italic'>KeyShop</h1>
       <div className='flex gap-10'>
            <ul className='flex gap-8'>
-         <NavLink to='home'><li>Home</li></NavLink>
-         <NavLink to='/'><li>Products</li></NavLink>
-          <NavLink to='/'> <li>About Us</li></NavLink>
-           <NavLink to='/'><li>Contact</li></NavLink>
+         <NavLink to='/'><li>Home</li></NavLink>
+         <NavLink to='products'><li>Products</li></NavLink>
+          <NavLink to='aboutUs'> <li>About Us</li></NavLink>
+           <NavLink to='contact'><li>Contact</li></NavLink>
       
      
       
